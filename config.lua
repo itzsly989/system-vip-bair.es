@@ -21,7 +21,7 @@ Config.WebhookColor   = '14423100'
 ]]
 --
 
-Config.CodeId    = 'ALYF-'
+Config.CodeId    = 'SLY-'
 -- Better not to put more than 9
 Config.LengthNum = 8
 -- The code will be like VYZO-AN458NSI
