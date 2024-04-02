@@ -61,8 +61,8 @@ end
 
 function deleteData(code)
     local queries = {
-        { query = 'DELETE FROM `alyf_store_codes` WHERE `code` = (:code)', values = { ['code'] = code } },
-        { query = 'DELETE FROM `alyf_store_logs` WHERE `code` = (:code)', values = { ['code'] = code } }
+        { query = 'DELETE FROM `sly_store_codes` WHERE `code` = (:code)', values = { ['code'] = code } },
+        { query = 'DELETE FROM `sly_store_logs` WHERE `code` = (:code)', values = { ['code'] = code } }
     }
 
     MySQL.transaction(queries, function(success)
